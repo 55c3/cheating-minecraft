@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cheating-minecraft",
+  "version": "${version}",
+
+  "name": "Cheating Minecraft Speedruns",
+  "description": "This mod increases piglin ender pearl barter rates and blaze rod drops. Do not use in official speedruns.",
+  "authors": [
+    "55c3"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UCxB7uh0De7wkzGbbEtuY4hw",
+    "sources": "https://github.com/55c3/cheating-minecraft"
+  },
+
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fiftyfivec3.cheats.CheatingMod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "rng-tracker": "*"
+  }
+}
